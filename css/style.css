@@ -69,3 +69,31 @@ h1{
 ul{
     padding:20px;
 }
+
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: left;
+    background-color: lightskyblue;
+    color: white;
+}
+
+.last_colomn{
+    width:50%;
+}
+
+tbody{
+    background-color: lightblue;
+}
+
+.mid-row{
+    background-color: white;
+}
+
+.last-p{
+    margin: 20px 0;
+}
