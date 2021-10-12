@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(144, 221, 217, 0.24);
+    margin:auto;    
+    width: 1200px;
+}
+
+.title-logo{
+    text-align: center;
+    color: black;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    font-size: 40px;
+    font-family: 'Ephesis', cursive;
+}
+
+h1{
+    font-size: 40px;
+    background-color: white;
+}
+
+.sign{
+    text-align: right;
+    color: darkgrey;
+    font-style: italic;
+}
+
+.foto_signed{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.special_line{
+    background-color: white;
+}
+
+table{
+    text-align: center;
+}
+
+.last_column{
+    width: 50%;
+}
+
+.text{
+    text-decoration: underline;
+}
+
+.last-p{
+    text-align: center;
+    background-color: rgba(90, 88, 88, 0.288);
+}
+
+.consigli{
+     font-family: 'Ephesis', cursive;
+     font-size: 30px;
+     color: darkgrey;
+}
