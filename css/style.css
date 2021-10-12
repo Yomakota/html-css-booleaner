@@ -1,116 +1,63 @@
 body{
-    width:1200px;
-    margin: auto;
-}
-
-header{
-    width: 100%;
-    height: 175px;
-    background-image: url("/Users/matteoperitore/boolean/html-css-booleaner/img/pattern.png");
-    background-color: lightblue;
+    background-color: rgba(144, 221, 217, 0.24);
+    margin:auto;    
+    width: 1200px;
 }
 
 .title-logo{
-    position: absolute;
-    top: 60px;
-    color: white;
-    font-weight: bold;
-}
-
-.small-title{
+    text-align: center;
+    color: black;
     position: relative;
-    left: 40px;
-    top: 25px;
-    font-size: 20px;
+    left:50%;
+    transform: translate(-50%);
+    font-size: 40px;
+    font-family: 'Ephesis', cursive;
 }
 
-.title{
-    font-size: 60px;
-}
-
-
- 
 h1{
-     margin-bottom: 0;
-     font-size: 50px;
-}
-
-.sign{
-     color: grey;
-     font-size: 20px;
-}
-
-
-.sign-two{
-    color:lightskyblue;
-}
-
-.date{
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-
-.foto{
-    width: 550px;
-    height: 400px;
-    margin-bottom: 0px;
-}
-
-.foto_sign{
-    font-size: 10px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.text-yellow{
-    background-color: yellow;
-}
-
-ul{
-    padding:20px;
-}
-
-
-table{
-    width:100%;
-    border-collapse: collapse;
-}
-
-thead{
-    text-align: left;
-    background-color: lightskyblue;
-    color: white;
-}
-
-.last_colomn{
-    width:50%;
-}
-
-tbody{
-    background-color: lightblue;
-}
-
-.mid-row{
+    font-size: 40px;
     background-color: white;
 }
 
+.sign{
+    text-align: right;
+    color: darkgrey;
+    font-style: italic;
+}
+
+.foto_signed{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.special_line{
+    background-color: white;
+}
+
+table{
+    text-align: center;
+}
+
+.last_column{
+    width: 50%;
+}
+
+.text{
+    text-decoration: underline;
+}
+
 .last-p{
-    margin: 20px 0;
+    text-align: center;
+    background-color: rgba(90, 88, 88, 0.288);
 }
 
-.suggest{
-    color: grey;
-}
-
-.photo{
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.text-photo{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    font-size: 30px;
-    color: white;
+.consigli{
+     font-family: 'Ephesis', cursive;
+     font-size: 30px;
+     color: darkgrey;
 }
